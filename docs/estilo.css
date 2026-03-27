@@ -1,0 +1,38 @@
+/*seletor de tag*/
+p {
+    color: purple;
+}
+
+/*seletor de classe*/
+.patrick {
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+/*seletor de id*/
+#bob-esponja {
+    background-color: purple;
+    color: white;
+}
+/*seletor de tag*/
+body {
+    background-color: beige;
+}
+
+table {
+    font-family: Arial;
+    text-align: right;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
